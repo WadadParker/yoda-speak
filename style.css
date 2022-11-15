@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+   
+    background-color:var(--light-green);
+}
+
+:root {
+    --dark-green: #84cc16;
+    --light-green: #bef264;
+}
+
+
+#textArea {
+    width:50%;
+    height: 10vh;
+    padding: 1rem;
+    display:block;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    
+}
+
+#btn {
+    display: block;
+    padding: 0.5rem 2rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: var(--dark-green);
+    color: white;
+    border: transparent;
+    font-size: 1.3rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 50%;
+    padding:1rem;
+    margin:auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+nav {
+    text-align: center;
+    margin:auto;
+    width:50%;
+    background-color: var(--dark-green);
+    padding:1rem 2rem;
+    border-radius: 1rem;
+}
+
+#div-minion {
+    width: 100%;
+    height: 20rem;
+    background-image: url("/images/Baby-Yoda.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 1px solid var(--light-green);
+  }
